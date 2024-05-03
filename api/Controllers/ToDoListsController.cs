@@ -18,12 +18,26 @@ namespace api.Controllers
         public ToDoListsController(AppDbContext context){
             _context = context;
         }
-
+        
+        // Get the entire database
         [HttpGet]
 
         public async Task<IEnumerable<ToDoList>> getList(){
             var toDoList = await _context.ToDoLists.AsNoTracking().ToListAsync();
             return toDoList;
+        }
+
+        //Get single task
+
+        [HttpGet("{id:int}")]
+
+        public async Task<ActionResult<ToDoList>> GetTask(int id){
+            var toDoList = await _context.ToDoLists.FindAsync(id);
+
+            if(toDoList == null){
+                return NotFound("Task was not found (ノಠ益ಠ)ノ彡┻━┻");
+            }
+            return Ok(toDoList);
         }
 
         [HttpPost]
