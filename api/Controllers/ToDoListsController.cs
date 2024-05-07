@@ -72,7 +72,7 @@ namespace api.Controllers
             return BadRequest("(ノಠ益ಠ)ノ彡┻━┻");
         }
 
-        [HttpDelete("(id:int)")]
+        [HttpDelete("{id:int}")]
 
         public async Task<IActionResult> Delete(int id){
             var toDoList = await _context.ToDoLists.FindAsync(id);
