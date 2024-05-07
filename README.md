@@ -23,5 +23,5 @@ Test your API:
 Test your ToDo API using tools like Postman or curl or Swagger to ensure that CRUD operations work as expected and that data is persisted correctly in the database.
 By following these steps, you can create a ToDo application using ASP.NET Core Web API with Entity Framework Core for data access. This setup allows you to build a scalable and maintainable API for managing ToDo items.
 
-peer review by:
-comments: 
+peer review by: David Jimenez
+comments:  Each of your http requests work properly.  At first, your [HttpDelete] syntax was not properly created but then you changed as we saw the error.  This fixed the small issue we saw.  I really like your table flips, nice touch.  I understand your code and it all seems to function as intended as I tested in swagger.

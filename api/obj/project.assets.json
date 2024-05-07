@@ -3022,24 +3022,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\neoco\\.nuget\\packages\\": {}
+    "C:\\Users\\Owner\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\neoco\\OneDrive\\Documents\\CodeStack\\ToDo\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\Owner\\OneDrive\\CodeStack\\Level_3\\OthersTest\\Neo\\ToDo\\ToDo\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\neoco\\OneDrive\\Documents\\CodeStack\\ToDo\\api\\api.csproj",
-      "packagesPath": "C:\\Users\\neoco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\neoco\\OneDrive\\Documents\\CodeStack\\ToDo\\api\\obj\\",
+      "projectPath": "C:\\Users\\Owner\\OneDrive\\CodeStack\\Level_3\\OthersTest\\Neo\\ToDo\\ToDo\\api\\api.csproj",
+      "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Owner\\OneDrive\\CodeStack\\Level_3\\OthersTest\\Neo\\ToDo\\ToDo\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\neoco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3105,7 +3107,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
